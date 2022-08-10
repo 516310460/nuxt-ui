@@ -6,7 +6,7 @@
     "cli"
   ],
   "license": "MIT",
-  "author": "chris-zhu <https://github.com/chris-zhu>",
+  "author": "hom-wang <https://github.com/516310460>",
   "main": "./dist/index.mjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

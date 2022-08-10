@@ -1,5 +1,5 @@
 import { defineConfig, presetAttributify, presetIcons, presetTypography, presetUno, transformerDirectives, transformerVariantGroup } from 'unocss'
-import { presetOnu } from 'nuxt-ui'
+import { presetNuxtUI } from 'nuxt-ui'
 
 export default defineConfig({
   presets: [
@@ -9,7 +9,7 @@ export default defineConfig({
       scale: 1.2,
     }),
     presetTypography(),
-    presetOnu(),
+    presetNuxtUI(),
   ],
   transformers: [transformerVariantGroup(), transformerDirectives()],
 })

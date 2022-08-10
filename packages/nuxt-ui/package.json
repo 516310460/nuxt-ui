@@ -9,7 +9,7 @@
     "vueuse"
   ],
   "license": "MIT",
-  "author": "chris-zhu <https://github.com/chris-zhu>",
+  "author": "hom-wang <https://github.com/516310460>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nuxt-ui/nuxt-ui.git"
@@ -32,9 +32,9 @@
     "stub": "tsup --watch"
   },
   "bugs": {
-    "url": "https://github.com/nuxt-ui/nuxt-ui/issues"
+    "url": "https://github.com/516310460/nuxt-ui/issues"
   },
-  "homepage": "https://github.com/nuxt-ui/nuxt-ui#readme",
+  "homepage": "https://github.com/516310460/nuxt-ui#readme",
   "dependencies": {
     "@nuxt-ui/components": "workspace:*"
   }

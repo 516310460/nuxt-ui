@@ -2,12 +2,12 @@ import { parseColor } from '@unocss/preset-mini/utils'
 import type { Preset, RuleContext } from 'unocss'
 import type { Theme } from '@unocss/preset-uno'
 
-export function presetOnu(): Preset {
+export function presetNuxtUI(): Preset {
   return {
     name: '@nuxt-ui/preset',
     theme: {
       colors: {
-        context: 'rgba(var(--onu-c-context),%alpha)',
+        context: 'rgba(var(--nuxt-c-context),%alpha)',
       },
       fontFamily: {
         sans: 'Avenir, Helvetica, Arial, sans-serif',
@@ -18,7 +18,7 @@ export function presetOnu(): Preset {
         const color = parseColor(body, theme)
         if (color?.cssColor?.type === 'rgb' && color.cssColor.components) {
           return {
-            '--onu-c-context': `${color.cssColor.components.join(',')}`,
+            '--nuxt-c-context': `${color.cssColor.components.join(',')}`,
           }
         }
       }],

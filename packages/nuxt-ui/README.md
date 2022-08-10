@@ -14,24 +14,24 @@ Add `nuxt-ui` in your main entry file.
 
 ```ts
 // main.ts
-import OnuUI from 'nuxt-ui'
+import NuxtUI from 'nuxt-ui'
 import 'uno.css'
 import 'nuxt-ui/dist/style.css'
 
-createApp(App).use(OnuUI).mount('#app')
+createApp(App).use(NuxtUI).mount('#app')
 ```
 Custom your UnoCSS config:
 ```ts
 // uno.config.ts
 import { defineConfig, presetAttributify, presetUno } from 'unocss'
-import { presetOnu } from 'nuxt-ui'
+import { presetNuxtUI } from 'nuxt-ui'
 
 export default defineConfig({
   presets: [
     // ...
     presetUno(),
     presetAttributify(),
-    presetOnu(),
+    presetNuxtUI(),
   ],
 })
 ```
@@ -43,4 +43,4 @@ export default defineConfig({
 [@nuxt/ui](https://github.com/nuxt/ui)
 # License
 
-[MIT](../../LICENSE) License © 2022 [chris-zhu](https://github.com/chris-zhu)
+[MIT](../../LICENSE) License © 2022 [hom-wang](https://github.com/516310460)

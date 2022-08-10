@@ -1,6 +1,6 @@
 import type { App, Plugin } from 'vue'
 
-const INSTALLED_KEY = Symbol('OnuUI_Installed')
+const INSTALLED_KEY = Symbol('NuxtUI_Installed')
 
 export const createInstaller = (components: Plugin[] = []): Plugin => {
   const install = (app: App) => {

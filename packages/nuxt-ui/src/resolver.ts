@@ -1,6 +1,6 @@
 import type { ComponentResolver } from 'unplugin-vue-components'
 
-export function OnuResolver(): ComponentResolver {
+export function NuxtUIResolver(): ComponentResolver {
   return {
     type: 'component',
     resolve: (name: string) => {
