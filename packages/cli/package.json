@@ -1,6 +1,6 @@
 {
   "name": "@nuxt-ui/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nuxt-ui Cli",
   "keywords": [
     "cli"
@@ -21,7 +21,7 @@
     "dist"
   ],
   "bin": {
-    "onu": "./bin/index.mjs"
+    "NuxtUI": "./bin/index.mjs"
   },
   "scripts": {
     "build": "unbuild",

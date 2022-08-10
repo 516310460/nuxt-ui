@@ -1,7 +1,7 @@
 {
   "name": "nuxt-ui",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nuxt-ui for web components with unocss & vueuse",
   "keywords": [
     "nuxt-ui",
