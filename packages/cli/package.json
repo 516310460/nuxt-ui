@@ -1,6 +1,6 @@
 {
   "name": "@nuxt-ui/cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "nuxt-ui Cli",
   "keywords": [
     "cli"

@@ -1,7 +1,7 @@
 {
   "name": "nuxt-ui",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "nuxt-ui for web components with unocss & vueuse",
   "keywords": [
     "nuxt-ui",
@@ -12,7 +12,7 @@
   "author": "hom-wang <https://github.com/516310460>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nuxt-ui/nuxt-ui.git"
+    "url": "git+https://github.com/516310460/nuxt-ui.git"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
