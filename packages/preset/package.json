@@ -1,6 +1,6 @@
 {
     "name": "@nuxt-ui/preset",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "nuxt-ui preset about unocss are settled here",
     "main": "./dist/index.cs",
     "module": "./dist/index.mjs",
