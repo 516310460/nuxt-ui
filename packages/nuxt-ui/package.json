@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-ui",
+  "name": "nuxt-ui-test",
   "type": "module",
   "version": "1.0.3",
   "description": "nuxt-ui for web components with unocss & vueuse",

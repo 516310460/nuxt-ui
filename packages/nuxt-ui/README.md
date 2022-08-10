@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./public/logo.svg" style="width:100px;" />
+<!-- <img src="./public/logo.svg" style="width:100px;" /> -->
 <h1 align="center">nuxt-ui</h1>
 <p align="center">nuxt-ui for web glassmorphism components generate by UnoCSS.</p>
 </p>
